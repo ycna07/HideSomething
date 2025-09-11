@@ -1,0 +1,17 @@
+Mods:{
+	HideSomething:{
+		Keybind:{
+			OPHideEnabled:"其他人弹幕现在被隐藏"
+			OPHideDisabled:"其他人弹幕现在正常显示"
+		}
+		Config:{
+			OthersProjectileHide:{
+				Label:弹幕隐藏开关
+			}
+			DustHide:{
+				Label:尘埃隐藏开关
+			}
+
+		}
+	}
+}

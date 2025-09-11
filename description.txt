@@ -1,0 +1,11 @@
+
+[h1]为了减少光污染而生的纯客户端模组[/h1]
+
+[h2]目前功能[/h2]
+[list]
+	[*]隐藏武器弹幕
+	[*]隐藏召唤物
+	[*]隐藏宠物
+
+
+[url=https://github.com/ycna07/HideSomething] 开源地址 [/url] 

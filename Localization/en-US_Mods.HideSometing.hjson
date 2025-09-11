@@ -1,0 +1,32 @@
+Keybind: {
+	OPHideEnabled: OthersProjectile hide now
+	OPHideDisabled: OthersProjectile show now
+}
+
+Keybinds.OthersProjectileHide.DisplayName: Others Projectile Hide
+
+Configs: {
+	Config: {
+		DisplayName: Config
+
+		OthersProjectileHide: {
+			Label: Others Projectile hide
+			Tooltip: ""
+		}
+
+		DustHide: {
+			Label: Dust hide
+			Tooltip: ""
+		}
+
+		OthersMinionHide: {
+			Label: Others Minion Hide
+			Tooltip: Others Minion Hide
+		}
+
+		OthersPetHide: {
+			Label: Others Pet Hide
+			Tooltip: ""
+		}
+	}
+}

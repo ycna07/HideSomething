@@ -1,0 +1,32 @@
+Keybind: {
+	OPHideEnabled: 隐藏其他人弹幕开启
+	OPHideDisabled: 隐藏其他人弹幕关闭
+}
+
+Keybinds.OthersProjectileHide.DisplayName: 弹幕隐藏
+
+Configs: {
+	Config: {
+		DisplayName: 设置
+
+		OthersProjectileHide: {
+			Label: 隐藏弹幕
+			Tooltip: 默认只隐藏武器弹幕，但也可能隐藏未知弹幕
+		}
+
+		DustHide: {
+			Label: 隐藏尘埃
+			Tooltip: 如果你仍觉得眼花
+		}
+
+		OthersMinionHide: {
+			Label: 隐藏召唤物
+			Tooltip: 隐藏其他所有人召唤物
+		}
+
+		OthersPetHide: {
+			Label: 隐藏其他所有人宠物
+			Tooltip: 包括照明宠物
+		}
+	}
+}
