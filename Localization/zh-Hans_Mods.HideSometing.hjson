@@ -15,8 +15,8 @@ Configs: {
 		}
 
 		DustHide: {
-			Label: 隐藏尘埃
-			Tooltip: 如果你仍觉得眼花
+			Label: 隐藏所有粒子
+			Tooltip: 包括自己，队友，boss产生的粒子
 		}
 
 		OthersMinionHide: {
@@ -27,6 +27,26 @@ Configs: {
 		OthersPetHide: {
 			Label: 隐藏其他所有人宠物
 			Tooltip: 包括照明宠物
+		}
+
+		GoreHide: {
+			Label: 隐藏死亡动画
+			Tooltip: 比如僵尸死时乱飞的零件
+		}
+
+		PlayerHide: {
+			// Label: Player Hide
+			// Tooltip: ""
+		}
+
+		PlayerSelfHide: {
+			// Label: Player Self Hide
+			// Tooltip: ""
+		}
+
+		TownNPCHide: {
+			Label: 隐藏城镇NPC
+			Tooltip: "包括史莱姆与猫咪"
 		}
 	}
 }

@@ -28,5 +28,25 @@ Configs: {
 			Label: Others Pet Hide
 			Tooltip: ""
 		}
+
+		GoreHide: {
+			Label: Gore Hide
+			Tooltip: ""
+		}
+
+		PlayerHide: {
+			Label: Player Hide
+			Tooltip: ""
+		}
+
+		PlayerSelfHide: {
+			Label: Player Self Hide
+			Tooltip: ""
+		}
+
+		TownNPCHide: {
+			Label: Town N P C Hide
+			Tooltip: ""
+		}
 	}
 }

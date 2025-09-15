@@ -6,6 +6,9 @@
 	[*]隐藏武器弹幕
 	[*]隐藏召唤物
 	[*]隐藏宠物
+	[*]隐藏死亡动画
+	[*]隐藏城镇NPC
 
+请绑定快捷键使用
 
 [url=https://github.com/ycna07/HideSomething] 开源地址 [/url] 

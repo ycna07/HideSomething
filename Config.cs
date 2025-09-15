@@ -17,7 +17,7 @@ namespace HideSometing
 
         
         [DefaultValue(false)]
-        public bool DustHide { get; set; } // 尘埃隐藏开关
+        public bool DustHide { get; set; } // 粒子隐藏开关
 
         
         [DefaultValue(false)]
@@ -25,6 +25,18 @@ namespace HideSometing
 
         [DefaultValue(false)]
         public bool OthersPetHide { get; set; } // 宠物隐藏开关
+
+        [DefaultValue(false)]
+        public bool GoreHide { get; set; } // 尸块隐藏开关
+
+        //[DefaultValue(false)]
+        //public bool PlayerHide { get; set; } // 玩家隐藏开关
+
+        //[DefaultValue(false)]
+        //public bool PlayerSelfHide { get; set; } // 玩家自己隐藏开关
+
+        [DefaultValue(false)]
+        public bool TownNPCHide { get; set; } // 城镇NPC隐藏开关
 
     }
 }

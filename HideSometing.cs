@@ -18,21 +18,30 @@ namespace HideSometing
 
         public override void Load()
         {
-            Terraria.On_Main.DrawDust += HideDust;
-         
+            //Terraria.On_Main.DrawDust += HideDust;
+            Terraria.On_Main.DrawGore += HideGore;
+
         }
         public override void Unload()
         {
-            Terraria.On_Main.DrawDust -= HideDust;
+            //Terraria.On_Main.DrawDust -= HideDust;
+            Terraria.On_Main.DrawGore -= HideGore;
         }
 
-        private static void HideDust(Terraria.On_Main.orig_DrawDust orig, Main self)
+        //private static void HideDust(Terraria.On_Main.orig_DrawDust orig, Main self)
+        //{
+        //    var config = ModContent.GetInstance<Config>();
+        //    if (!config.DustHide) 
+        //      orig(self);  
+ 
+        //}
+        private static void HideGore(Terraria.On_Main.orig_DrawGore orig,Main self)
         {
             var config = ModContent.GetInstance<Config>();
-            if (!config.DustHide) 
-              orig(self);  
- 
+            if(!config.GoreHide)
+                orig(self);
         }
+
 
        
       
