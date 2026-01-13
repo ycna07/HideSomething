@@ -27,7 +27,7 @@ namespace HideSometing
         public bool OthersPetHide { get; set; } // 宠物隐藏开关
 
         [DefaultValue(false)]
-        public bool GoreHide { get; set; } // 尸块隐藏开关
+        public bool GoreHide { get; set; } // 尸块/死亡动画隐藏开关
 
         //[DefaultValue(false)]
         //public bool PlayerHide { get; set; } // 玩家隐藏开关

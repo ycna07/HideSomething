@@ -1,4 +1,4 @@
 displayName = HideSomething 隐藏弹幕++
 author = kcna
 side=Client
-version = 1.0
+version = 1.1

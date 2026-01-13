@@ -46,7 +46,7 @@ Configs: {
 
 		TownNPCHide: {
 			Label: 隐藏城镇NPC
-			Tooltip: "包括史莱姆与猫咪"
+			Tooltip: 包括史莱姆与猫咪
 		}
 	}
 }
